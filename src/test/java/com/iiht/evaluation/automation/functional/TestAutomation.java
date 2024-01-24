@@ -43,7 +43,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_enter_investment_amount() throws IOException {
         boolean testcase_status = true;
-        String investment_amount = MasterData.test_success_login_master_data.get("investment_amount");
+        String investment_amount = MasterData.test_fixed_deposit_calculator_master_data.get("investment_amount");
         try {
             boolean fixed_deposit_calculator_enter_investment_amount_succeed = Activities.fixed_deposit_calculator_enter_investment_amount(driver, investment_amount);
             System.out.println("fixed_deposit_calculator_enter_investment_amount_succeed " + fixed_deposit_calculator_enter_investment_amount_succeed);
@@ -61,7 +61,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_enter_investment_period() throws IOException {
         boolean testcase_status = true;
-        String investment_period = MasterData.test_success_login_master_data.get("investment_period");
+        String investment_period = MasterData.test_fixed_deposit_calculator_master_data.get("investment_period");
         try {
             boolean fixed_deposit_calculator_enter_investment_period_succeed = Activities.fixed_deposit_calculator_enter_investment_period(
                     driver, investment_period);
@@ -80,7 +80,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_enter_rate_of_return() throws IOException {
         boolean testcase_status = true;
-        String rate_of_return = MasterData.test_success_login_master_data.get("rate_of_return");
+        String rate_of_return = MasterData.test_fixed_deposit_calculator_master_data.get("rate_of_return");
         try {
             boolean fixed_deposit_calculator_enter_rate_of_return_succeed = Activities.fixed_deposit_calculator_enter_rate_of_return(
                     driver, rate_of_return);
@@ -99,7 +99,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_select_interest_frequency_monthly() throws IOException {
         boolean testcase_status = true;
-        String interest_frequency_monthly = MasterData.test_success_login_master_data.get("interest_frequency_monthly");
+        String interest_frequency_monthly = MasterData.test_fixed_deposit_calculator_master_data.get("interest_frequency_monthly");
         try {
             boolean fixed_deposit_calculator_select_interest_frequency_succeed = Activities.fixed_deposit_calculator_select_interest_frequency(
                     driver, interest_frequency_monthly);
@@ -118,7 +118,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_select_interest_frequency_quaterly() throws IOException {
         boolean testcase_status = true;
-        String interest_frequency_quaterly = MasterData.test_success_login_master_data.get("interest_frequency_quaterly");
+        String interest_frequency_quaterly = MasterData.test_fixed_deposit_calculator_master_data.get("interest_frequency_quaterly");
         try {
             boolean fixed_deposit_calculator_select_interest_frequency_succeed = Activities.fixed_deposit_calculator_select_interest_frequency(
                     driver, interest_frequency_quaterly);
@@ -137,7 +137,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_select_interest_frequency_half_yearly() throws IOException {
         boolean testcase_status = true;
-        String interest_frequency_half_yearly = MasterData.test_success_login_master_data.get("interest_frequency_half_yearly");
+        String interest_frequency_half_yearly = MasterData.test_fixed_deposit_calculator_master_data.get("interest_frequency_half_yearly");
         try {
             boolean fixed_deposit_calculator_select_interest_frequency_succeed = Activities.fixed_deposit_calculator_select_interest_frequency(
                     driver, interest_frequency_half_yearly);
@@ -156,7 +156,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_select_interest_frequency_yearly() throws IOException {
         boolean testcase_status = true;
-        String interest_frequency_yearly = MasterData.test_success_login_master_data.get("interest_frequency_yearly");
+        String interest_frequency_yearly = MasterData.test_fixed_deposit_calculator_master_data.get("interest_frequency_yearly");
         try {
             boolean fixed_deposit_calculator_select_interest_frequency_succeed = Activities.fixed_deposit_calculator_select_interest_frequency(
                     driver, interest_frequency_yearly);
@@ -175,7 +175,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_enter_tax_rate() throws IOException {
         boolean testcase_status = true;
-        String tax_rate = MasterData.test_success_login_master_data.get("tax_rate");
+        String tax_rate = MasterData.test_fixed_deposit_calculator_master_data.get("tax_rate");
         try {
             boolean fixed_deposit_calculator_enter_tax_rate_succeed = Activities.fixed_deposit_calculator_enter_tax_rate(driver,
                     tax_rate);
@@ -212,7 +212,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_check_total_payment() throws IOException {
         boolean testcase_status = true;
-        String total_payment = MasterData.test_success_login_master_data.get("total_payment");
+        String total_payment = MasterData.test_fixed_deposit_calculator_master_data.get("total_payment");
         try {
             boolean fixed_deposit_calculator_check_total_payment_succeed = Activities.fixed_deposit_calculator_check_total_payment(
                     driver, total_payment);
@@ -231,7 +231,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_check_total_interest() throws IOException {
         boolean testcase_status = true;
-        String total_interest = MasterData.test_success_login_master_data.get("total_interest");
+        String total_interest = MasterData.test_fixed_deposit_calculator_master_data.get("total_interest");
         try {
             boolean fixed_deposit_calculator_check_total_interest_succeed = Activities.fixed_deposit_calculator_check_total_interest(
                     driver, total_interest);
@@ -250,7 +250,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_check_total_corpus() throws IOException {
         boolean testcase_status = true;
-        String total_corpus = MasterData.test_success_login_master_data.get("total_corpus");
+        String total_corpus = MasterData.test_fixed_deposit_calculator_master_data.get("total_corpus");
         try {
             boolean fixed_deposit_calculator_check_total_corpus_succeed = Activities.fixed_deposit_calculator_check_total_corpus(
                     driver, total_corpus);
@@ -269,7 +269,7 @@ public class TestAutomation extends App {
     @Test
     public void test_fixed_deposit_fixed_deposit_calculator_check_post_tax_amount() throws IOException {
         boolean testcase_status = true;
-        String post_tax_amount = MasterData.test_success_login_master_data.get("post_tax_amount");
+        String post_tax_amount = MasterData.test_fixed_deposit_calculator_master_data.get("post_tax_amount");
         try {
             boolean fixed_deposit_calculator_check_post_tax_amount_succeed = Activities.fixed_deposit_calculator_check_post_tax_amount(
                     driver, post_tax_amount);
